@@ -1,25 +1,26 @@
 h1 {
-  font-size: 6em;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-
-}
-
-body {
-  text-align: center;
-  background-color: #efefef;
-}
-
-#box {
-  padding-top: 50px;
-}
-
-#box2 {
-  padding-bottom: 50px;
-}
-
-#description {
-  font-size: 2em;
-  text-align: center;
-  font-family: 'Roboto', sans-serif;
-}
+    font-size: 6em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  
+  }
+  
+  body {
+    text-align: center;
+    background-color: #efefef;
+  }
+  
+  #box {
+    padding-top: 50px;
+  }
+  
+  #box2 {
+    padding-bottom: 50px;
+  }
+  
+  #description {
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
