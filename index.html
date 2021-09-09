@@ -7,19 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <title>Movie Searcher</title>
 </head>
 
 <body>
-    <h1>Movie Searcher</h1>
-    <div id="box2">
-        <input type="text" id="searchParameter" placeholder="Search">
-        <button id="search-btn">Search For Movie</button>
-    </div>
-    <div id="description"></div>
-    <div id="box">
-        <div id="app"></div>
-    </div>
+    <header class="main-head">
+        <h1 class="header-border">Movies</h1>
+    </header>
+
+    <section class="section-main">
+
+        <div class="search-area">
+            <input type="text" id="searchParameter" placeholder="Search For Movie">
+            <button id="search-btn">Search</button>
+        </div>
+
+        <div class="descrition-box">
+            <div id="description"></div>
+        </div>
+
+        <div class="content">
+            <div id="app"></div>
+        </div>
+
+    </section>
+
     <script src="scripts.js"></script>
 </body>
 
